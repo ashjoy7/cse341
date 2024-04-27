@@ -1,9 +1,9 @@
 const awesomeFunction = (req, res, next) => {
-    res.json('Awesome person');
+    res.json('Angela Egan');
 };
 
 const returnanotherPerson = (req, res, next) => {
-    res.json('Supa awesome person');
+    res.json('Mark Egan');
 };
 
 module.exports = {awesomeFunction, returnanotherPerson};
