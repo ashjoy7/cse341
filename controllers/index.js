@@ -2,4 +2,8 @@ const awesomeFunction = (req, res, next) => {
     res.json('Awesome person');
 };
 
-module.exports = {awesomeFunction};
+const returnanotherPerson = (req, res, next) => {
+    res.json('SUper awesome person');
+};
+
+module.exports = {awesomeFunction, returnanotherPerson};
