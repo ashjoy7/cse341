@@ -3,7 +3,7 @@ const awesomeFunction = (req, res, next) => {
 };
 
 const returnanotherPerson = (req, res, next) => {
-    res.json('SUper awesome person');
+    res.json('Supa awesome person');
 };
 
 module.exports = {awesomeFunction, returnanotherPerson};
